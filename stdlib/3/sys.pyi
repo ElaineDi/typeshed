@@ -16,7 +16,7 @@ _T = TypeVar('_T')
 
 # The following type alias are stub-only and do not exist during runtime
 _ExcInfo = Tuple[Type[BaseException], BaseException, TracebackType]
-_OptExcInfo = Tuple[Optional[Type[BaseException]], Optional[BaseException], Optional[TracebackType]]
+_OptExcInfo = Tuple[Optional[Type[BaseException]], Optional[BaseException], Optional[_version_info]]
 
 # ----- sys variables -----
 abiflags: str
